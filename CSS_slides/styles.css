@@ -1,0 +1,79 @@
+/* This ia comment */
+/* This is auto generated with CTRL + ? on windows, CMD + ? on MAC */
+body {
+    background-color: lightgreen;
+ } 
+ 
+ p{
+     color: lime;
+     font-size: 32px;
+     font-weight: 900;
+ }
+ span {
+     color: mediumpurple;
+
+ }
+ .header {
+     font-style: italic;
+ }
+ #first-header{
+     color: mediumvioletred;
+ }
+ #second-header{
+     color: mintcream;
+ }
+ #bg-image: {
+     Background-image: url{''}
+ }
+#border{
+    /* border: 1px solid red */
+    border-width: 1px;
+    border-style: solid;
+    border-color: red; 
+    background: yellowgreen;
+    margin: 16px;
+    padding: 16px; 
+}
+
+.serif {
+     font-family: "Times New Roman", 'Times New Roman', Times, serif;
+}
+
+.sans-serif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div1{
+    background-color: aqua;
+    width: 400px;
+    height: 100px;
+}
+
+.div2{
+    background-color: blanchedalmond;
+    height: 100vh;
+    width: 50vw;
+
+}
+
+.div3{
+    background-color: crimson;
+    width: 50vw;
+    height: 300px;
+    animation-name: change-color;
+    animation-delay: 3s;
+    animation-duration: 1;
+    animation-iteration-count: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes change-color {
+    from {
+        color: darkgray;
+        background-color: darkslateblue;
+    }
+    to {
+        color: dodgerblue;
+        background-color: gold;
+    }
+}
